@@ -52,7 +52,6 @@ p{
 }
 .card{
     width: 35%;
-    border: 2px solid black;
     padding: 20px;
     height: 350px;
     justify-content: space-around;
@@ -69,9 +68,13 @@ p{
 }
 .right-card{
     border-left: 7px solid ;
+    border-radius: 10px;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
    
+}
+.sub-section,.card{
+    border-radius: 10px;
 }
 .footer-section p{
     font-size: 15px;
